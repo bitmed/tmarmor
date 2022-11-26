@@ -87,9 +87,9 @@ function App() {
                 <li>Vai da un <strong>Minatore</strong> e fai creare i lingotti della lega ${metal1.label} - ${metal2.label} infusa</li>
                 <li>Vai da un <strong>Fabbro</strong> e fai forgiare l'armatura!</li>`;
 
-      if(metal1.magres != '') bonusStr = 'Resistenza '+metal1.magres+' 21%, ';
+      if(metal1.magres != '') bonusStr = 'Resistenza '+metal1.magres+' 24%, ';
       else bonusStr = metal1.extraLong+', ';
-      if(metal2.magres != '') bonusStr += 'Resistenza '+metal2.magres+' 21%';
+      if(metal2.magres != '') bonusStr += 'Resistenza '+metal2.magres+' 24%';
       else bonusStr += metal2.extraLong;
     }
     setCosto(costStr);
