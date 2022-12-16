@@ -40,8 +40,8 @@ function App() {
     { label: 'Merkite', value: 'Merkite', res: ['psionico', 'mente', 'illithid'], blood: 'illithid', color: '#83418b', magres: 'psionico' },
     { label: 'Valorium', value: 'Valorium', res: ['energia','elettric', 'titanico'], blood: 'titanico', color: '#c58b20', magres: 'energia' },
     { label: 'Talavholk', value: 'Talavholk', res: ['sacro', 'bene', 'iridescente', 'thalavolk', 'thalavholk'], blood: 'iridescente', color: '#6a5a73', magres: 'sacro' },
-    { label: 'Adamantio', value: 'Adamantio', res: ['fisico'], blood: 'glaciale', color: '#f6eede', magres: '', extra: 'AR migliorata', extraLong: 'AR migliorata' },
-    { label: 'Ithilmar', value: 'Ithilmar', res: ['freddo', 'acqua', 'itilmar'], blood: 'glaciale', color: '#7b94a4', magres: '', extra: 'leggerezza', extraLong: 'Peso totale minore' },
+    { label: 'Adamantio', value: 'Adamantio', res: ['fisico', 'stabile', 'ar'], blood: 'stabile', color: '#f6eede', magres: '', extra: 'AR migliorata', extraLong: 'AR migliorata' },
+    { label: 'Ithilmar', value: 'Ithilmar', res: ['leggerezza', 'volatile', 'itilmar'], blood: 'volatile', color: '#7b94a4', magres: '', extra: 'leggerezza', extraLong: 'Peso totale minore' },
   ];
 
   const filterOptions1 = (option, inputValue) => {
